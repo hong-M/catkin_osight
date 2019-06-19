@@ -1,0 +1,6 @@
+<launch>
+  <arg name="hostPC" default="192.168.1.100" />
+  <node pkg="iexxx" name="iexxx" type="IExxx_node">
+    <param name="hostPC" value="$(arg hostPC)" />
+  </node>
+</launch>
